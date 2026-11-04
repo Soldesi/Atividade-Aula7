@@ -1,0 +1,15 @@
+name: calendario
+description: Consulta os compromissos do calendário do dispositivo nos próximos 7 dias.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  device_calendar: ^4.3.3
+
+flutter:
+  uses-material-design: true
